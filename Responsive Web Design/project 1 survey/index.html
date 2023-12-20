@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cat survey</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <h1 id="title">How is your ideal cat?</h1>
+        <p id="description">give us the details of your favorite feline friend!!</p>
+
+        <form id="survey-form">
+            <fieldset>
+                <div>
+                    <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+                    <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required /></label>
+                    <label for="number" id="number-label">Age <input type="number" id="number" min="9" max="100" placeholder="Enter you age" /></label>
+                 </div>  
+
+                 <div>
+                    <legend>What gender do you prefer?</legend>
+                         <label for="female"><input type="radio" name="gender" value="female" id="female" class="inline" checked /> Female</label>
+                        <label for="male"><input type="radio" name="gender" value="male" id="male" class="inline" /> Male</label>
+                </div>
+
+                <div>
+                    <label for="dropdown"> Which one is your favorite breed?
+                        <select id="dropdown">
+                            <option value="" disabled selected>Select your favorite breed!</option>
+                            <option value="ragdoll">Ragdoll</option>
+                            <option value="europeanS">European Shorthair</option>
+                            <option value="turkishA">Turkish Angora</option>
+                            <option value="siamese">Siamese</option>
+                            <option value="cornishR">Cornish Rex</option>
+                            <option value="sphynx">Sphynx</option>
+                            <option value="other">Other...</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <legend>What kind of cat's personality do you prefer?</legend>
+                        <label><input type="checkbox" value="energetic" class="inline" /> Energetic</label>
+                        <label><input type="checkbox" value="lazy" class="inline" /> Lazy</label>
+                        <label><input type="checkbox" value="calm" class="inline" /> Calm</label>
+                        <label><input type="checkbox" value="affectionate" class="inline" /> Affectionate</label>
+                </div>
+
+                <div>
+                    <label for="fav-thing"> What do you love the most about cats?
+                        <textarea id="fav-thing" rows="4" cols="30" placeholder="I REALLY LOVE when they..."></textarea>
+                    </label>
+                </div>
+            </fieldset>
+            <button type="submit" id="submit">Submit!</button>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+html{
+    box-sizing: content-box;
+}
+
+body{
+    font-family: -apple-system;
+    font-size: 15px;
+    background-color: #dfe6da ;
+    margin: 0;
+    text-align: center;
+    color: #474747;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+main{
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: #CBD5C0 ;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 40px;
+    color:#0A5C36;
+    margin: 10px 0;
+}
+
+h2{
+   color: #0A5C36;
+   text-align: center; 
+}
+
+figure{
+    width: 30rem;
+    background: #acada899;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px 15px 20px 15px;
+}
+
+figcaption{
+    margin-top: 15px;
+}
+
+img{
+    display: block;
+    width: 25rem;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.divider{
+    display: inline-block;
+    width: 48vw;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+blockquote{
+    display: block;
+    font-style: italic;
+    text-align: left;
+}
+
+p a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover{
+    color: #474747;
+}

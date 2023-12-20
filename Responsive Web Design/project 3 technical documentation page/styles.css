@@ -1,0 +1,110 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+body{
+    line-height: 1.5;
+    font-family: -apple-system;
+    background-color: #fff;
+    color: #474747;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    border-right: 2px solid #c2c5bb;
+    background-color: #b4654a;
+    min-width: 290px;
+    z-index: 1;
+    font-size: 1.2em;
+}
+
+#navbar a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    padding:5px 0 5px 20px;
+}
+
+#navbar a:hover{
+    background-color: #fff;
+    width: 100%;
+    color: #b4654a;
+}
+
+#navbar li{
+    position: relative;
+    list-style: none ;
+    border-top: 2px solid #fff;
+    width: 100%;
+}
+
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+#navbar>header{
+    padding: 20px 20px 20px 20px;
+    margin-bottom: -20px;
+    color: #fff;
+    background-color: #157a6e;
+}
+#navbar, header, h4 {
+    font-family: 'Franklin Gothic';
+}
+
+section>header{
+    font-size: 1.8em;
+}
+
+main{
+    position: relative;
+    left: 0;
+    padding-left: 350px;
+    margin: 50px 50px 50px 0;
+}
+section>header{
+    color: #157a6e;
+}
+
+p{
+    margin-top: 0;
+}
+
+#Feeding>div{
+    padding-left: 50px; 
+}
+
+h3{
+    margin-bottom: 8px;
+    color: #499f68;
+}
+
+#Feeding>ul{
+    background-color: #77b28c;
+    border-radius: 30px;
+    padding: 20px 40px 30px 70px;
+    color: #fff;
+    margin-right: 220px;
+    display: inline-block; 
+    
+}
+ul>h4{
+    color: #fff;
+}
+
+h4{
+    margin: 10px;
+    font-style: italic;
+    font-size: large;
+    margin-left: -20px;
+    color: #474747;
+}

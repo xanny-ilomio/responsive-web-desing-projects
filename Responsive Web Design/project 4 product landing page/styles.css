@@ -1,0 +1,168 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+html{
+    box-sizing: content-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: #9f86c0 ;
+}
+
+main{
+    width: 82%;
+    padding: 40px 80px;
+    text-align: left;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #f4f0ed;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-img {
+    margin-right: auto;
+}
+
+#nav-bar{
+    margin-right: 40px;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5e548e;
+}
+
+h2{
+    text-align: center;
+    color: #231942;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#email, #submit{
+    margin: 10px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1.5px solid #9f86c0;
+}
+
+form input[type="email"]{
+    width: 25%;
+}
+
+form input[type="submit"]{
+    font-weight: bold;
+    background-color: #9f86c0;
+    color: #fff;
+    cursor: pointer;
+}
+/*benefits*/
+#benefits > h2{
+    text-align: left;
+}
+
+#benefits>p{
+    line-height: 1.5;
+}
+
+/*assembly video*/
+#assembly{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/*prducts & pricing*/
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    border: 2px solid #9f86c0;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 12px 15px;
+}
+
+.product > img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product > :not(ul){
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
+
+.product_name{
+    color: #5e548e;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*buy button*/
+button{
+    background-color: #9f86c0;
+    border: 1.5px solid #5e548e;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #5e548e;
+    transition: background-color 0.8s;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f4f0ed;
+    color: #444;
+    height: 80px;
+    text-align: right;
+}
+
+footer > span{
+    display: block;
+    margin: 0 8px 0 auto;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+span>a{
+    text-decoration: none;
+}
