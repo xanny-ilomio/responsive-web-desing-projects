@@ -1,0 +1,164 @@
+
+@media (prefers-reduced-motion: no-preference){
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #364958;
+    height: 10vh;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.4);
+    display: flex;   
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 35.5px;
+}
+
+.nav-links>li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 5rem;
+}
+
+li>a, .fab{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#welcome-section, #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome-section{
+    height: 100vh;
+    background-color: #3b6064;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#welcome-section > h1{
+    font-size: 80px;
+}
+
+#welcome-section > p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+#projects{
+    background-color: #C9E4CA;
+    padding: 50px 200px;
+    height: 140vh;
+}
+
+.title-block{
+    display: block;
+    text-align: center;
+    color: #3b6064;
+}
+
+h2{
+    font-size: 70px;
+}
+
+.projects-grid{
+    display: grid;
+    gap: 5rem;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.project-1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;    
+}
+
+.project-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.project-3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;    
+}
+
+
+.project-4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.back{
+    background-color: #3b6064;
+    border-radius: 8px;
+}
+
+.projects-grid > a > img{
+    width: 1000px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.project-title{
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.project-title:hover::after{
+    content: " />";
+    color: orange;
+}
+
+.project-title:hover::before{
+    content: "< ";
+    color: orange;
+}
+
+#contact {
+    height: 100vh;
+    background-color: #55828b;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 3rem;
+}
